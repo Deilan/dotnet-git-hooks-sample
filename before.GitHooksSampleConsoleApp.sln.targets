@@ -1,0 +1,8 @@
+<Project>
+  <Target Name="InstallNpmPackages" BeforeTargets="Restore;CollectPackageReferences">
+    <Exec Command="npm install"/>
+  </Target>
+  <Target Name="VSTest">
+    <MSBuild Projects="@(ProjectReference)" Targets="VSTestIfTestProject" />
+  </Target>
+</Project>

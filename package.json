@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@commitlint/cli": "7.0.0",
+    "@commitlint/config-conventional": "7.0.1",
+    "@commitlint/prompt-cli": "7.0.0",
+    "cross-env": "5.2.0",
+    "husky": "1.0.0-rc.13"
+  }
+}
